@@ -1,0 +1,136 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+    height:auto;
+    background: url("images/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    height:150px;
+    /*background:linear-gradient(to right, lightyellow ,lightgreen);*/
+    background : rgba(0,0,0,0.7);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+header p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.justnow{
+    height:100px;
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.form-control{
+    width:250px;
+    
+}
+section{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainport{
+    width:700px;
+    background: rgba(0,0,0,0.7);
+    height:350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.imgholder{
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ img{
+    width: 200px;
+    height:200px;
+}
+ h1{
+    color:white;
+    font-size:30px;
+}
+.details,.details2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+}
+.details p{
+    color:white;
+    font-size: 16px;
+    text-align: center;
+}
+h1:hover{
+    color:green;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+p.unique{
+    color:gold;
+    font-size: 14px;
+}
+
+.h{
+    margin-top: 2%;
+}
+
+footer{
+    color:white;
+    background: rgba(0,0,0,0.9);
+    height: 200px;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fade{
+    display: none;
+}
+h2,h3,h4{
+    font-style: italic;
+    text-align: center;
+}
+h2:hover{
+    color:gold;
+}
+h4:hover{
+    color:gold;
+}
+a:hover{
+    color:gold;
+}
+
+@media (max-width:800)
+{
+    .mainport{
+        width:350px;
+        background: rgba(0,0,0,0.7);
+        height:350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+    }
+}
